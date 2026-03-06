@@ -4,7 +4,7 @@ import axios from "axios";
 // Set the base URL for all axios requests
 axios.defaults.baseURL = 'http://localhost:3000';
 
-const CHUNK_SIZE = 5 * 1024 * 1024; // 5MB
+const CHUNK_SIZE = 5 * 1024 * 1024;// 5MB
 
 const styles = {
   container: {
